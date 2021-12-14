@@ -1,0 +1,105 @@
+:root{
+    --bs-primary: #e4a1e4;
+    --bs-blue: rgb(240, 179, 240);
+    --bs-primary-rgb: 207, 150, 207;
+    --bs-secondary: #e6d5e6;
+    --bs-secondary-rgb: 230, 213, 230;
+    --bs-dark: grey;
+    --bs-dark-rgb: 34, 34, 34;
+}
+
+.bg-primary {
+    border-radius: 16px;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.img-fluid {
+    border-radius: 16px;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.nav-item {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h1 {
+    color:rgb(35, 35, 56);
+}
+
+button {
+    border-radius: 16px;
+    border: none;
+    background-color: #e4a1e4;
+    padding: 1rem 3rem 1rem 3rem;
+    color: rgb(0, 0, 65);
+}
+
+footer .copyright {
+    float: right;
+    margin: auto;
+}
+
+
+/**** MY PORTFOLIO ****/
+
+.portfolio-section {
+    background: var(--bs-dark) url(../images/nature.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    filter: grayscale(100%);
+    opacity: 95%;
+}
+
+.portfolio{
+    padding-top: 2.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-item {
+    max-width: 100%;
+}
+
+/**** CONTACT ****/
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 10px;  
+    border: 1px solid #ccc; 
+    border-radius: 16px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: #e4a1e4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .container {
+    border-radius: 16px;
+    background-color: #e6d5e6;
+    padding: 20px;
+  }
